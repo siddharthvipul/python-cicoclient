@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "python-cicoclient"
+version = "0.5.0"
+description = "python-cicoclient is a client, library, and a CLI interface that can be used to communicate with the ci.centos.org infrastructure provisioning system called Duffy"
+authors = ["siddharthvipul <siddharthvipul1@gmail.com>"]
+license = "Apache License 2.0"
+
+[tool.poetry.dependencies]
+python = "3.6.2"
+click = "^8.0.3"
+pytest = "^6.2.5"
+black = "^21.9b0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
